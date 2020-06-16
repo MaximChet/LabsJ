@@ -5,12 +5,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.Rectangle2D;
 
-/**
- * @author shaidullin
- *
- * Kласс FractalExplorer, который позволяет исследовать различные области фрактала, путем его создания, отображения через
- * графический интерфейс Swing и обработки событий, вызванных взаимодействием приложения с пользователем
-*/
 
 public class FractalExplorer {
     private int size;

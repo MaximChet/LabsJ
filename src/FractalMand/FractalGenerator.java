@@ -1,28 +1,8 @@
 package FractalMand;
 import java.awt.geom.Rectangle2D;
 
-
-/**
- * This class provides the common interface and operations for fractal
- * generators that can be viewed in the Fractal Explorer.
- */
 public abstract class FractalGenerator {
 
-    /**
-     * This static helper function takes an integer coordinate and converts it
-     * into a double-precision value corresponding to a specific range.  It is
-     * used to convert pixel coordinates into double-precision values for
-     * computing fractals, etc.
-     *
-     * @param rangeMin the minimum value of the floating-point range
-     * @param rangeMax the maximum value of the floating-point range
-     *
-     * @param size the size of the dimension that the pixel coordinate is from.
-     *        For example, this might be the image width, or the image height.
-     *
-     * @param coord the coordinate to compute the double-precision value for.
-     *        The coordinate should fall in the range [0, size].
-     */
     public static double getCoord(double rangeMin, double rangeMax, int size, int coord) {
 
         assert size > 0;

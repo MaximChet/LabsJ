@@ -1,8 +1,5 @@
 package Lab1;
 
-/**
- * @author shaidullin
- */
 
 public class Primes {
     public static void main(String[] args) {

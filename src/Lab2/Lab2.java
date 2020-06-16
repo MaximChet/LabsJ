@@ -2,9 +2,6 @@ package Lab2;
 
 import java.util.Scanner;
 
-/**
- * @author shaidullin
- */
 
 public class Lab2 {
 

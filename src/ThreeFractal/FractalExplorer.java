@@ -15,13 +15,6 @@ import java.io.File;
 import java.io.IOException;
 
 
-/**
- * @author shaidullin
- *
- * В данном классе добавлено два новых фрактала, кнопка сохранения и выпадающий список,
- * а также улучшена реализация MouseHandler
- */
-
 public class FractalExplorer {
     private int size;
     private JImageDisplay image;

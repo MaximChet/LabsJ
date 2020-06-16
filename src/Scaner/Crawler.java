@@ -4,13 +4,6 @@ import java.io.*;
 import java.net.*;
 import java.util.LinkedList;
 
-/**
- * @author shaidullin
- *
- * Данный класс ищет все ссылки на указанной странице до определенной глубины поиска(depth)
- *
- */
-
 
 public class Crawler {
 

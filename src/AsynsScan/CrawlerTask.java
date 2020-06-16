@@ -9,12 +9,6 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-/**
- * @author shaidullin
- *
- * Данный класс ищет все ссылки на указанной странице до определенной глубины поиска(depth)
- *
- */
 
 public class CrawlerTask implements Runnable {
     URLPool urlPool;

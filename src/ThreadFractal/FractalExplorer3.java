@@ -20,12 +20,6 @@ import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
 
-/**
- * @author shaidullin
- *
- * В данном классе добавлена многопоточная реализация
- */
-
 public class FractalExplorer3 {
     private int size;
     private JImageDisplay image;

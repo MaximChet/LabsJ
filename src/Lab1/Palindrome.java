@@ -1,10 +1,7 @@
 package Lab1;
 
-import java.util.Scanner;
 
-/**
- * @author shaidullin
- */
+import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
